@@ -1,7 +1,13 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
+    color: brown;
 }
+
+#main {
+    border:dotted 15px #ccc
+}
+
 h1 {
     text-align: center;
     font-size: 8em;
@@ -9,25 +15,32 @@ h1 {
 
 h3 {
     text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 15px;
+    border-color: rgb(39, 35, 35);
 }
 
 p {
     text-align: center;
     font-size: 1em;
-    background-color: #ccc;
+    background-color: rgb(54, 155, 76);
     margin: 10px;
     padding: 10px;
 }
 
 
 img {
+    
     display: block;
     margin: 0 auto;
-    border-style: solid;
+    border-style: dotted;
     border-width: 10px;
     border-color: #aca;
 }
 table.center {
     margin-left:auto; 
     margin-right:auto;
+    border-style: block;
   }
