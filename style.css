@@ -1,7 +1,13 @@
 body {
-    font-family: arial, helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
 }
 h1 {
-    font-size: 13em;
+    font-size: 8em;
+}
+
+img {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #aca;
 }
